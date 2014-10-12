@@ -1,0 +1,217 @@
+/* Copyright © 2008 Rescue Life & Webmaster Per Björlefeldt */
+body {padding: 2em; margin: 0; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 0.7em;}
+h2 {margin: 0 0 0.5em 0; font-size: 2.5em;}
+h3 {margin: 1em 0 0.5em 0; font-size: 1.5em;}
+h4 {margin: 1.5em 0 0.5em 0; font-size: 1.2em;}
+p {line-height: 1.8em; margin: 0 0 5px 0;}
+
+h6 {margin: 1.5em 0 0.5em 0; font-size: 1.5em;}
+p1 {line-height: 1.5em; margin: 0 0 5px 0; font-size:1.2em;}
+
+
+body {
+	margin:25px;
+	background-color:#504d4d;
+}
+#mainbox {
+	width:800px;
+	height:800px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#2d2c2c;
+	border-color:#e5e335;
+	border-style:solid;
+}
+
+#mainbox2 {
+	width:800px;
+	height:915px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#2d2c2c;
+	border-color:#e5e335;
+	border-style:solid;
+}
+#mainbox3 {
+	width:800px;
+	height:801px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#2d2c2c;
+	border-color:#e5e335;
+	border-style:solid;
+}
+#boxen {
+	width:800px;
+	height:577px;
+	background:url(Bilder/startsidan.png) no-repeat;
+	margin:0;
+	padding:0;
+}
+#mainloggo {
+	width:800px;
+	height:200px;
+	background-image:url(Bilder/mainloggo.png);
+	margin:0;
+	padding:0;
+}
+/* Menyn */
+
+#start {
+	float:left;
+	width:200px;
+	height:25px;
+	text-align:center;
+	
+}
+#start a {
+	background:url(Bilder/start_link.png) no-repeat;
+	display: block;
+	width: auto;
+	height: 25px;
+}
+#start a:hover {
+	background:url(Bilder/start_hover.png) no-repeat;
+}
+#start a#current {
+	background:url(Bilder/start_current.png);
+}
+#om {
+	float:left;
+	width:200px;
+	height:25px;
+	background-color:#e5e335;
+	text-align:center;
+	
+}
+#om a {
+	background:url(Bilder/om_link.png) no-repeat;
+	display: block;
+	width: auto;
+	height: 25px;
+}
+#om a:hover {
+	background:url(Bilder/om_hover.png) no-repeat;
+}
+#om a#current {
+	background:url(Bilder/om_current.png);
+}
+#kontakt {
+	float:left;
+	width:200px;
+	height:25px;
+	background-color:#e5e335;
+	text-align:center;
+	
+}
+#kontakt a {
+	background:url(Bilder/kontakt_link.png) no-repeat;
+	display: block;
+	width: auto;
+	height: 25px;
+}
+#kontakt a:hover {
+	background:url(Bilder/kontakt_hover.png) no-repeat;
+}
+#kontakt a#current {
+	background:url(Bilder/kontakt_current.png) no-repeat;
+}
+#utbildning {
+	float:left;
+	width:200px;
+	height:25px;
+	background-color:#e5e335;
+	text-align:center;
+	
+}
+#utbildning a {
+	background:url(Bilder/utbildning_link.png) no-repeat;
+	display: block;
+	width: auto;
+	height: 25px;
+}
+#utbildning a:hover {
+	background:url(Bilder/utbildning_hover.png) no-repeat;
+}
+#utbildning a#current {
+	background:url(Bilder/utbildning_current.png) no-repeat;
+}
+/* Innehåll*/
+
+#kolumncontainer {
+	float: left;
+	width: 800px;
+	
+	height:555px;
+}
+#kolumn1 {
+	float: left;
+	width: 500px;
+	padding: 10px;
+	background: #2d2c2c;
+	color:#FFFFFF;
+	
+	
+}
+#kolumn2 {
+	float: left;
+	width: 260px;
+	padding: 10px;
+	background: #e5e335;
+	height:100%;
+	
+}
+#kolumn3 {
+	float: left;
+	width: 260px;
+	padding: 10px;
+	background: #e5e335;
+	height:101%;
+	
+}
+
+#ruta {
+	height:auto;
+	width:auto;
+	border-style:solid;
+	border-width:2px;
+	border-color:#000000;
+	background-color:#e5e335;
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
+	margin:10px;
+	padding:5px;
+	font-style:oblique;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+#ruta2 {
+	height:auto;
+	width:auto;
+	border-style:solid;
+	border-width:2px;
+	border-color:#000000;
+	background-color:#e5e335;
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
+	margin:10px;
+	padding:5px;
+	font-style:oblique;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+/* Sidfot */
+#sidfot {
+	clear: both;
+	width:806px;
+	padding: 10px;
+	background: #e5e335;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0;
+	text-align:center;
+}
